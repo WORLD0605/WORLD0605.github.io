@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111827" />
+    <meta name="description" content="一个记录项目、想法和实用链接的个人网站。" />
+    <title>个人空间 · 项目、想法与收藏</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./content.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="返回首页"><span class="wordmark-icon">✳</span><span id="site-brand">个人空间</span></a>
+        <nav class="main-nav" aria-label="主导航">
+          <a href="#projects">项目</a>
+          <a href="#ideas">想法</a>
+          <a href="#bookmarks">收藏</a>
+          <a href="#about">关于</a>
+        </nav>
+        <a class="header-contact" href="#contact">联系我 <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main id="main">
+        <section class="hero" id="top" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> PERSONAL SPACE <span class="eyebrow-year">/ 2026</span></p>
+            <h1 id="hero-title">让想法落地，<br /><em>让过程可见。</em></h1>
+            <p class="hero-description" id="hero-description">这里记录我的项目、正在酝酿的点子，以及值得反复打开的好网站。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">看看我的项目 <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#about">了解我 <span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="个人名片">
+            <div class="card-topline"><span>ABOUT ME</span><span class="card-spark" aria-hidden="true">✳</span></div>
+            <div class="portrait-art" aria-hidden="true"><span class="portrait-orbit orbit-one"></span><span class="portrait-orbit orbit-two"></span><span class="portrait-core">HI</span></div>
+            <div class="identity"><span class="identity-label">你好，我是</span><strong id="person-name">你的名字</strong><span id="person-role">创作者 · 探索者</span></div>
+            <p id="person-location" class="location"></p>
+          </aside>
+        </section>
+
+        <section class="content-section projects-section" id="projects" aria-labelledby="projects-title">
+          <div class="section-heading"><div><p class="section-index">01 / SELECTED WORK</p><h2 id="projects-title">做过的项目<span class="heading-mark">.</span></h2></div><p class="section-note">从想法到实现，留下过程和结果。</p></div>
+          <div class="projects-grid" id="projects-list"></div>
+        </section>
+
+        <section class="content-section ideas-section" id="ideas" aria-labelledby="ideas-title">
+          <div class="section-heading"><div><p class="section-index">02 / IN PROGRESS</p><h2 id="ideas-title">正在想的事<span class="heading-mark">.</span></h2></div><p class="section-note">不必成熟，先把有意思的念头记下来。</p></div>
+          <div class="ideas-grid" id="ideas-list"></div>
+        </section>
+
+        <section class="content-section bookmarks-section" id="bookmarks" aria-labelledby="bookmarks-title">
+          <div class="section-heading"><div><p class="section-index">03 / GOOD FINDS</p><h2 id="bookmarks-title">值得收藏<span class="heading-mark">.</span></h2></div><p class="section-note">工具、灵感与常常想再打开的网页。</p></div>
+          <div class="bookmarks-list" id="bookmarks-list"></div>
+        </section>
+
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div class="about-intro"><p class="section-index">04 / ABOUT ME</p><h2 id="about-title">很高兴在这里<br />认识你<span class="heading-mark">.</span></h2></div>
+          <div class="about-copy"><p id="about-text"></p><div class="about-tags" id="about-tags"></div><div class="contact-block" id="contact"><p>如果你想聊聊项目、合作或工作机会：</p><div class="contact-links" id="contact-links"></div></div></div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><span id="footer-name">个人空间</span><span>持续记录，慢慢更新。</span><a href="#top">回到顶部 ↑</a></footer>
+    </div>
+  </body>
+</html>
