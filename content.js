@@ -11,22 +11,13 @@ window.SITE_CONTENT = {
   github: "https://github.com/WORLD0605",
   projects: [
     {
-      title: "你的第一个项目",
-      category: "示例项目",
-      year: "2026",
-      description: "用两三句话介绍它解决了什么问题、你负责了什么，以及最后做到了什么。",
-      tags: ["项目类型", "使用的技术"],
-      url: "",
+      title: "CEPB ControlCenter",
+      category: "桌面上位机 · 工业通信",
+      year: "持续迭代",
+      description: "面向 CEPB 嵌入式设备的 Windows 上位机。基于 Qt/C++，支持设备配置编辑与导入导出、Debug Console 远程调试，以及通过 SSH/SCP 上传和下载配置。",
+      tags: ["Qt / C++", "CMake", "TCP / SSH"],
+      url: "https://github.com/WORLD0605/CEPB_ControlCenter",
       accent: "blue"
-    },
-    {
-      title: "另一个值得分享的作品",
-      category: "示例项目",
-      year: "2026",
-      description: "也可以放研究、设计、开源贡献，或者任何能体现你思考和行动的事情。",
-      tags: ["你的角色", "关键成果"],
-      url: "",
-      accent: "orange"
     }
   ],
   ideas: [
