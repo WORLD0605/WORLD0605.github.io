@@ -14,6 +14,8 @@
 
 目前 CEPB ControlCenter 已作为真实项目展示；想法条目仍标有“示例”，建议之后换成自己的记录。修改文件并推送到 `main` 后，GitHub Pages 会自动更新。
 
+若浏览器仍显示旧内容，可在 `index.html` 中把 `content.js` 与 `styles.css` 后的 `v=` 参数改为新版本号，一起提交以刷新静态资源缓存。
+
 ## 本地预览
 
 在本目录运行：
